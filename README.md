@@ -11,5 +11,4 @@ This is a simple calculator web application that includes an HTML file, a CSS fi
 
 ### Setup
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/soufianeIT/calculator.git
+   ```bash git clone https://github.com/soufianeIT/calculator.git```
