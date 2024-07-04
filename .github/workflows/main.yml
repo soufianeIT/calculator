@@ -25,13 +25,13 @@ jobs:
       run: npm test
 
     - name: Build Docker image
-      run: docker build -t soufianeIT/calculator-app .
+      run: docker build -t soufianeit/calculator-app .
 
     - name: Log in to Docker Hub
       run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
     
     - name: push docker image
-      run: docker push soufianeIT/calculator-app:latest
+      run: docker push soufianeit/calculator-app:latest
 
   # deploy:
   #   runs-on: ubuntu-latest
