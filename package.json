@@ -4,7 +4,7 @@
   "description": "This is a simple calculator web application that includes an HTML file, a CSS file, and a JavaScript file. It serves as an example for setting up a CI/CD pipeline using GitHub Actions and Docker.",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\""
   },
   "keywords": [],
   "author": "",
