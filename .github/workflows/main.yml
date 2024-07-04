@@ -54,5 +54,5 @@ jobs:
   #   - name: Deploy to server
   #     run: |
   #       ssh user@server 'cd /path/to/app && git pull origin main && docker-compose up -d'
-  #     # Remplacez 'ssh user@server' par votre méthode de déploiement réelle, par exemple SSH, ou autre
+  #      # Remplacez 'ssh user@server' par votre méthode de déploiement réelle, par exemple SSH, ou autre
 
